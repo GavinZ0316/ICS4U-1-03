@@ -1,0 +1,23 @@
+/****************************************************************************
+ * My assingment 1-03
+ * Created by: Gavin Zhou 
+ * Created on: Feb 2018
+ *
+ ****************************************************************************/
+import java.util.Scanner;
+
+ class EnergyProblem{
+    public static void main(String[] args) {
+
+    Scanner mass = new Scanner(System.in);
+    double input;
+    double speed = 299800000;
+    double answer;
+    System.out.println("Enter mass number:  ");
+    input = mass.nextDouble();
+
+    answer = input*speed*speed;
+    System.out.println(answer);
+    
+    }
+ }
